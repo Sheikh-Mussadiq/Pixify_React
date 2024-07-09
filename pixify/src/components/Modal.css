@@ -1,0 +1,61 @@
+/* src/Modal.css */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modalContainer {
+  
+    padding: 10px;
+    border-radius: 8px;
+    width: 800px;
+    max-width: 90%;
+    max-height: 80%;
+  }
+  
+  .closeBtn {
+    align-self: flex-end;
+    cursor: pointer;
+    font-size: 28px;  
+    font-weight: bold;
+    width: 4%;
+  }
+  
+  .content {
+    margin-top: -10%;
+    text-align: center;
+  }
+  
+
+  .content img {
+    max-width: 60%;
+    max-height: 30%;
+    border-radius: 5px;
+  }
+
+  .modal_text_P {
+    font-size: 18px;
+    margin-top: -3%;
+  }
+  .projectsGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .projectCard {
+    background: #f0f0f0;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
